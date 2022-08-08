@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+	<!-- https://cdnjs.com/libraries/font-awesome -->
+
+	<!-- https://fontawesome.com/icons -->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+	integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./custom.css" />
+
+	<!-- https://www.flaticon.es/ -->
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" type="image/x-icon">
+
+	<title>Portfolio-Flexbox</title>
+
+</head>
+
+<body>
+
+	<!-- HEADER SECTION SATRTS -->
+	<header class="header">
+
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">Byrontosh</div>
+				<ul class="menu">
+					<li><a href="#navbar">Home</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#expert">Expert</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="showcase">
+			<div class="container-2">
+				<div class="showcase-box">
+					<h1>Welcome to my online portfolio</h1>
+					<a href="#portfolio" class="btn btn-light">Portfolio</a>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- HEADER SECTION ENDS -->
+
+
+
+    <!-- MAIN SECTION STARTS  -->
+	<main class="main">
+
+
+
+		<!-- ABOUT SECTION STARTS  -->
+		<section class="about container" id="about">
+			<div class="about__texts">
+				<h2 class="title">¿Quién soy?</h2>
+				<p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem
+					accusamus laudantium aliquam, voluptatem nobis numquam, eos neque perferendis quisquam laboriosam
+					natus architecto harum, dolorem autem at cupiditate dolore consequuntur.</p>
+				<a href="#" class="btn btn-about">curriculum vitae</a>
+			</div>
+			<figure class="about__img">
+				<img src="./images/girl.svg" class="about__picture" alt="chica-code">
+			</figure>
+		</section>
+		<!-- ABOUT SECTION ENDS  -->
+
+
+
+		<!-- PORTFOLIO SECTION STARTS  -->
+		<section class="portfolio" id="portfolio">
+			<div class="portfolio__container container">
+				
+				<h2 class="title">Mis proyectos</h2>
+
+				<div class="portfolio__cards">
+					<article class="portfolio__card">
+						<img src="./images/portfolio-1.jpg" class="portfolio__picture" alt="project-one">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 1</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-2.jpg" class="portfolio__picture" alt="project-two">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 2</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-3.jpg" class="portfolio__picture" alt="project-three">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 3</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO SECTION ENDS  -->
+
+		
+		<!-- LANGUAGES SECTION STARTS  -->
+		<section class="languages" id="expert">
+			
+			<div class="container">
+				<h2 class="title">Experto</h2>
+				<div class="languages__container">
+					<img src="./images/html-5.svg" class="languages__picture" alt="skill-one">
+					<img src="./images/css-3.svg" class="languages__picture" alt="skill-two">
+					<img src="./images/javascript.svg" class="languages__picture" alt="skill-three">
+					<img src="./images/react.svg" class="languages__picture" alt="skill-four">
+				</div>
+			</div>
+
+		</section>
+		<!-- LANGUAGES SECTION ENDS  -->
+
+
+	</main>
+	<!-- MAIN SECTION ENDS  -->
+
+
+
+	<!-- FOOTER SECTION STARTS  -->
+	<footer class="footer" id="contact">
+		
+		<div class="footer__container container">
+			
+			<div class="footer__texts">
+				<h2 class="title">Contáctame</h2>
+				<div class="footer__icons">
+					<a href="#" class="footer__icon fab fa-facebook-f"></a>
+					<a href="#" class="footer__icon fab fa-twitter"></a>
+					<a href="#" class="footer__icon fab fa-instagram"></a>
+				</div>
+				<nav class="footer__nav">
+					<a href="#" class="footer__link">Inicio</a>
+					<a href="#about" class="footer__link">Sobre mí</a>
+					<a href="#portfolio" class="footer__link">Proyectos</a>
+				</nav>
+				<p class="footer__copy">Derechos reservados &copy; ByronTosh</p>
+			</div>
+
+			<div class="formulario">
+				<section class="ftco-section">
+					<div class="container">
+						<div class="row no-gutters">
+							<div class="col-md-7">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Contáctame</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+								<div id="form-message-success" class="mb-4">
+							Your message was sent, thank you!
+								</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url(./images/mail.svg); background-size: contain;">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>	
+	</footer>
+	<!-- FOOTER SECTION STARTS  -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
